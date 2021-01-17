@@ -1,0 +1,24 @@
+dynamic connectivity:
+ Given a set of n objects. Connect two objects.
+ Command:
+    union: join two objects
+    find/connected : is there a path connecting the two objects
+
+    0 - 1 - 2     3 - 4
+    |   |   |     |   |
+    5 - 6   7     8   9
+
+    union (4,3)
+    union (3,8)
+    union (6,5)
+    union (9,4)
+    union (2,1)
+    union (5,0)
+    union (7,2)
+    union (6,1)
+    union (1,0)
+
+    connected (0, 7) true
+    connected (2, 3) false
+    connected (2, 7) true
+
