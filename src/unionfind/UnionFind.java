@@ -1,4 +1,4 @@
-package com.coursera.algo.part1.unionfind;
+package unionfind;
 
 public class UnionFind {
     //UnionFind(int count); constructor to add the integers in the array of union find
